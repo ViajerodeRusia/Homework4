@@ -53,7 +53,6 @@ public class Homework4 {
 
 
     public static void main(String[] args) {
-        //Задача1
         System.out.println("Задача1");
         task1();
         System.out.println("Задача2");
