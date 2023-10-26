@@ -9,7 +9,7 @@ public class Homework4 {
     }
 
     public static void task1() {
-        int array [] = generateRandomArray();
+        int[] array = generateRandomArray();
         int sum = 0;
         for (int i : array) {
             sum +=i;
@@ -18,7 +18,7 @@ public class Homework4 {
         System.out.println(str);
     }
     public static void task2() {
-        int array [] = generateRandomArray();
+        int[] array = generateRandomArray();
         int max = array[0];
         int min = array[0];
         for (int i : array) {
@@ -34,13 +34,13 @@ public class Homework4 {
         System.out.println(str);
     }
     public static void task3() {
-        int array [] = generateRandomArray();
+        int[] array = generateRandomArray();
         double average = 0;
         int sum = 0;
         for (int i : array) {
             sum+=i;
         }
-        average = sum/ array.length;
+        average = (double) sum/ array.length;
         String str = String.format("Средняя сумма трат за месяц составила %,.3f рублей", average);
         System.out.println(str);
     }
